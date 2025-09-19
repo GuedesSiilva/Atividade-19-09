@@ -6,7 +6,9 @@ const nome = document.getElementById('userInput');
 const divResposta = document.getElementById('resposta');
 
 botaoAcao.addEventListener('click', function() {
-
-    divResposta.innerHTML = `<p>Olá, ${nome.value}, Bem-vindo a mágia</p>`;
-
+  if (nome.value.trim() === "") {
+        divResposta.innerHTML = `<p>Por favor, insira seu nome para entrar no mundo mágico!</p>`;
+    } else {
+    divResposta.innerHTML = `<p>Olá ${nome.value}, Bem-vindo a magia</p>`;
+    }
 });

@@ -11,7 +11,7 @@
 
 body {
     /* Imagem de fundo de uma floresta mágica (do Pexels) */
-    background-image: url('https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&#39');
+    background-image: url('https://acdn-us.mitiendanube.com/stores/956/391/products/papel-de-parede-hoghwart-harry-potter-21-4a0b607e165f195e1516454768190625-1024-1024.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-attachment: fixed; /* A imagem não rola com a página */
@@ -26,7 +26,7 @@ body {
 
 .container {
     background-color: rgba(18, 12, 8, 0.85); /* Fundo de madeira escura, semi-transparente */
-    border: 3px solid #7a5c33; /* Borda de madeira */
+    border: 3px solid #0c1073; /* Borda de madeira */
     border-radius: 15px;
     padding: 30px;
     width: 90%;
@@ -60,8 +60,8 @@ header p {
 }
 
 #actionButton {
-    background-color: #8b4513; /* Marrom de couro */
-    color: #ffc400;
+    background-color:  #120682;; /* Marrom de couro */
+    color:  #ffc400;;
     border: 3px solid #ffc400; /* Borda dourada */
     padding: 15px 30px;
     font-family: 'MedievalSharp', cursive;
@@ -72,8 +72,8 @@ header p {
 }
 
 #actionButton:hover {
-    background-color: #ffc400; /* Efeito ao passar o mouse */
-    color: #8b4513;
+    background-color: #1c05e8; /* Efeito ao passar o mouse */
+    color: #ffe600;
     transform: scale(1.05); /* Aumenta um pouco de tamanho */
 }
 
